@@ -1,0 +1,13 @@
+$(document).ready(function(){
+if($(window).width()<= 640){
+  $('.try_now_block').slick({
+    dots: false,
+    slidesToShow: 1.5,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: false,
+    infinite: false,
+    draggable: true
+  });
+}
+});

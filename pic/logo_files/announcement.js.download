@@ -1,0 +1,2 @@
+$(document).ready(function(){localStorage.getItem("announceBar")?$("#shopify-section-announcement").css("display","none"):($("#shopify-section-announcement").css("display","block"),$(".close_announce_bar").click(function(){$("#shopify-section-announcement").hide(),localStorage.setItem("announceBar",!0)})),$(".AnnouncementBar__Content ").slick({slidesToScroll:1,slidesToShow:1,autoplay:!0,autoplaySpeed:2e3,infinite:!0,horizontal:!0,horizontalSwiping:!0,arrows:!1})});
+//# sourceMappingURL=/cdn/shop/t/1009/assets/announcement.js.map?v=91030285011510307831733135251

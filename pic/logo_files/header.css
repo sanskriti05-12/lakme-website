@@ -1,0 +1,95 @@
+/** Shopify CDN: Minification failed
+
+Line 67:0 Unexpected "}"
+
+**/
+.Header .MegaMenu__Title, .MegaMenu__Inner .MegaMenu__Item .Linklist__Item a{
+  color:#000000;
+}
+a.ctsm_headinglink5 {
+    /* display: none; */
+}
+.HorizontalList__Item.is-expanded .icon-arrow-down svg{
+  transform: rotate(180deg);
+}
+.Header .MegaMenu__Inner .MegaMenu__Title{
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0;
+} 
+.HorizontalList__Item .Linklist__Item{
+  font-size:16px;
+}
+.HorizontalList__Item.is-expanded .Linklist__Item a:hover{
+  font-weight:700;
+  color:#901913;
+}
+.Header__FlexItem.Header__FlexItem--fill:first-child, .Header__FlexItem--fill{
+  flex:unset;
+}
+.HorizontalList .HorizontalList__Item .Heading{
+  font-size: 14px;
+  letter-spacing:1px;
+}
+  .track-oder-icon{
+     margin-right: 10px; 
+    }
+  .Header__Icon{
+    margin-right: 15px;
+    pointer-events: auto;
+  }
+ .st-search-icon{
+   display: none !important;
+ }
+
+
+@media only screen and (max-width: 640px){
+  .Header__Logo{
+    left: 0px;
+  }
+   .Header__FlexItem.Header__FlexItem--fill:last-child{
+    flex-direction:row;
+    flex:auto;
+    padding-top: 6px;
+  }
+  .Header__Icon.account{
+    order:2;
+    margin-right:10px;
+  }
+  .Header__Icon.search{
+    order:1;
+  }
+  .Header__Icon.cart{
+    order:3;
+  }
+}
+
+}
+.Header .MegaMenu__Inner .MegaMenu__Title{
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0;
+} 
+.HorizontalList__Item .Linklist__Item{
+  font-size:16px;
+}
+.HorizontalList__Item.is-expanded .Linklist__Item a:hover{
+  font-weight:700;
+  color:#901913;
+}
+.Header__FlexItem.Header__FlexItem--fill:first-child, .Header__FlexItem--fill{
+  flex:unset;
+}
+.HorizontalList .HorizontalList__Item .Heading{
+  font-size: 14px;
+  letter-spacing:1px;
+}
+
+@media only screen and (max-width: 640px){
+  .Header__Icon.search{
+    order:1;
+  }
+  .Header__Icon.cart{
+    order:3;
+  }
+}

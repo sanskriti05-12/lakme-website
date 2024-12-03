@@ -1,0 +1,1437 @@
+.cart__ctas {
+  display: grid !important;
+}
+
+.radioButton {
+  /* position: absolute!important; */
+  width: 20px;
+  height: 20px;
+  border: 1px solid #7069bc;
+  border-radius: 50px !important;
+  left: 20px !important;
+  top: 25px !important;
+  z-index: 1 !important;
+}
+
+.gfbProductPageWrapperV2{
+  width : 100%;
+}
+
+.gfbPageWrapper{
+  padding: 10px 0px 0px 0px;
+}
+.gfbVolumeBundleWrapper{
+  padding: 10px 0px 10px 0px;
+}
+
+.gftFreeGiftWrapper {
+  display: grid;
+}
+
+
+.invalidActionButton {
+  background-color: #d4d2e2;
+  pointer-events: none;
+}
+
+.gfbWidgets{
+  display: grid;
+  gap: 20px;
+}
+.gfbFrequentBoughtAddToCartButton,
+.gfbFrequentBoughtAddToCartButtonWithExpandOperation {
+  display: grid;
+  place-items: center;
+  margin-top:10px;
+  padding: 10px 5px;
+  /* width: 60px; */
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.gfbFrequentBoughtAddToCartButtonWithExpandOperation {
+  color: yellow;
+  background-color: black;
+}
+
+.gfbProductImage {
+  height: 50px;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: contain;
+}
+
+.gfbProductContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.gfbFrequentBoughtWidgetOfferContainer {
+  margin-bottom: 15px;
+  position: relative;
+}
+.gfbFrequentBoughtWidgetProductImage {
+  width: 120px;
+  height: 100px;
+  border-radius: 6px;
+  display: block;
+  position: relative;
+  z-index: 2;
+  grid-row: 1/ span 3;
+}
+
+.gfbFrequentBoughtWidgetProductImageEle {
+  width: 100%;
+  height:100%;
+  object-fit: contain;
+}
+
+.gfbFrequentBoughtWidgetProductContainer {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-gap: 5px;
+  grid-template-columns: 130px auto;
+  grid-template-rows: repeat(4, auto);
+}
+.gfbFrequentBoughtWidgetProductContainerOutOfStock .gfbFrequentBoughtVariantUIParentContainer{
+  display:none;
+}
+.gfbFrequentBoughtWidgetProductCheckboxContainer {
+  position: absolute;
+  top: -3px;
+  left: 0px;
+  z-index: 3;
+  scale: 1.2;
+}
+.gfbFrequentBoughtWidgetContentContainer {
+  z-index: 5;
+  position: relative;
+  display: grid;
+  grid-gap: 15px;
+}
+.gfbFrequentBoughtWidgetContainer {
+  width: 100%;
+  padding: 15px 15px;
+  border:1.6px solid #858585;
+  border-radius: 6px;
+  display: grid;
+  gap: 20px;
+  padding-top: 20px;
+}
+.gfbFrequentBoughtWidgetProductContent {
+  display: grid;
+  align-items: center;
+  justify-items: flex-start;
+  row-gap: 5px;
+}
+.gfbFrequentBoughtWidgetProductTitle {
+  font-size: 18px;
+  line-height: 17px;
+}
+
+.gfbFrequentBoughtWidgetProductTitle a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.gfbFrequentBoughtWidgetProductDescription{
+  display: none;
+  grid-row: 4;
+}
+
+.gfbFrequentBoughtMasterDropdownParentContainer{
+  width:50%;
+}
+.gfbFrequentBoughtWidgetProductVariantSelector {
+  font-size: 12px;
+  padding: 5px 18px 5px 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 10 6" fill="%23ccc" xmlns="http://www.w3.org/2000/svg"><path d="M0 1l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 10px;
+}
+.gfbFrequentBoughtWidgetTitleContainer {
+  display: grid;
+  row-gap: 5px;
+}
+.gfbFrequentBoughtWidgetTitle{
+  font-size: 22px;
+  line-height: 24px;
+}
+.gfbFrequentBoughtWidgetSubTitle{
+  font-size: 18px;
+  line-height: 20px;
+}
+.gfbFrequentBoughtWidgetProductPriceContainer {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  column-gap: 5px;
+  align-items: center;
+  font-size: 14px;
+  text-align: right;
+}
+.gfbFrequentBoughtWidgetProductPriceOriginal {
+  text-decoration: line-through;
+  font-size: 14px;
+  color:#898989;
+}
+.gfbFrequentBoughtWidgetProductPriceNoDiscount{
+  grid-template-columns: 1fr;
+}
+.gfbFrequentBoughtWidgetProductPriceNoDiscount .gfbFrequentBoughtWidgetProductPriceOriginal{
+  display: none;
+}
+.gfbFrequentBoughtWidgetRuler {
+  margin: 14px 0px;
+}
+.gfbFrequentBoughtWidgetPriceContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.gfbFrequentBoughtWidgetPriceContainerPrice {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+  align-items: baseline;
+}
+.gfbFrequentBoughtWidgetPriceContainerPriceOriginal {
+  text-decoration: line-through;
+  font-size: 14px;
+  color:#898989;
+}
+.gfbFrequentBoughtWidgetPriceContainerPriceDiscounted{
+  font-size: 22px;
+}
+.gfbFrequentBoughtWidgetAddToCartButtonEle {
+  display: grid;
+  place-items: center;
+  background-color: #1B1B1B ;
+  color: white;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.gfbFrequentBoughtWidgetProductContentNameVariantContainer{
+  width: 100%;
+  display: grid;
+  row-gap: 6px;
+}
+.gfbFrequentBoughtWidgetProductPriceDiscounted {
+  font-size: 18px;
+}
+.gfbFrequentBoughtWidgetPriceContainerText {
+  font-size: 22px;
+}
+.gfbFrequentBoughtWidgetPriceContainerPriceNoDiscount{
+  display: grid;
+  gap: 0px;
+}
+.gfbFrequentBoughtWidgetPriceContainerPriceNoDiscount .gfbFrequentBoughtWidgetPriceContainerPriceOriginal{
+  display: none;
+}
+.gfbDisableAddToCart {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.gfbFrequentBoughtWidgetProductContainerOutOfStock {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.gfbFrequentBoughtWidgetProductContainerOutOfStock
+  > div.gfbFrequentBoughtWidgetProductContent
+  > select {
+  display: none;
+}
+.gfbVolumeDiscountWidgetOfferDiscountTierContainer {
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  border: black solid 1px;
+  border-radius: 6px;
+}
+.gfbVolDiscountNoteContainer{
+  display: none !important;
+}
+.gfbVolumeDiscountRadioLabelWrapper{
+  display: grid;
+  align-items: center;
+  gap: 8px;
+  grid-template-columns: auto 2fr auto;
+}
+.gfbVolumeDiscountWidgetOfferDiscountTierRadio{
+  margin-top: 8px;
+}
+.gfbVolumeDiscountLabelContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.gfbVolumeDiscountPriceContainer{
+  display: flex;
+  align-items: center;
+  gap:5px;
+}
+
+.gfbVolumeDiscountOriginalPrice{
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #898989;
+}
+.gfbVolumeDiscountDiscountPrice{
+  font-size: 16px;
+  font-weight: bold;
+}
+.gfbVolumeDiscountVariantSelectionContainerBox {
+  text-align: left;
+  display: none;
+  overflow: hidden;
+}
+.gfbTierSelected .gfbVolumeDiscountVariantSelectionContainerBox {
+  display: block !important;
+}
+.gfbVolumeDiscountWidgetOfferContainer {
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  border:1.6px solid #858585;
+  border-radius: 6px;
+}
+.gfbVolumeDiscountWidgetWrapper {
+  padding: 0;
+}
+.gfbVolumeDiscountVariantSelection {
+  font-size: 12px;
+  padding: 5px;
+  width: 75%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 10 6" fill="%23ccc" xmlns="http://www.w3.org/2000/svg"><path d="M0 1l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 10px;
+}
+.gfbVolumeDiscountLabelText {
+  line-height: 20px;
+  font-weight: bold;
+}
+.gfbVolumeDiscountWidgetOfferDiscountTierContainer {
+  border: 2px solid grey;
+}
+.gfbVolumeDiscountWidgetOfferDiscountTierContainer:hover{
+  border: 2px solid #0075ff;
+}
+.gfbVolumeDiscountWidgetOfferDiscountTierContainer.gfbTierSelected {
+  border: 2px solid #0075ff;
+}
+.gfbVolumeDiscountWidgetOfferDiscountTierRadioSelection > input[type="radio"] {
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+  pointer-events: none;
+}
+.gfbVolumeDiscountWidgetOfferTitleContainer{
+  display: grid;
+  row-gap: 5px;
+}
+.gfbVolumeDiscountWidgetOfferTitle {
+  font-size: 22px;
+  line-height: 24px;
+}
+.gfbVolumeDiscountWidgetOfferSubTitle{
+  font-size: 18px;
+  line-height: 20px;
+}
+.gfbVolumeDiscountWidgetOfferAddToCartButton {
+  display: grid;
+  place-items: center;
+  margin-top: 10px;
+  padding: 10px 5px;
+  /* width: 60px; */
+  background-color: #1B1B1B;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.gfbVolumeDiscountWidgetOfferAddToCartPopup{
+  display: none;
+}
+.gfbVolumeDiscountVariantSelectionContainer {
+  display: grid;
+  padding: 0px 3px;
+}
+.gfbVolumeDiscountVariantsLabelText {
+  font-size: 14px;
+}
+.gfbVolDiscountNoteContentText {
+  font-size: 14px;
+}
+
+.gfbFrequentBoughtSwatchContainer {
+  display: grid;
+}
+.gfbFrequentBoughtSwatchHeading {
+  margin: 0;
+  font-size:12px;
+  color: #000000;
+  text-transform: capitalize;
+}
+.gfbFrequentBoughtSwatchParentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  height: fit-content;
+}
+
+
+.gfbFrequentBoughtSwatchColorUI {
+  display: block !important;
+  width: 35px;
+  height: 35px;
+  border: 1.2px solid #c0c0c0;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.gfbFrequentBoughtSwatchImg{
+  width:100%;
+  height:100%;
+  object-fit: fill;
+}
+.gfbFrequentBoughtSwatchColorUISelected {
+  outline: 2px solid #212121;
+  border: none;
+}
+.gfbFrequentBoughtSwatchColorUIOutOfStock{
+  opacity: 0.6;
+  border-style: dotted;
+  pointer-events: none;
+  display: none !important;
+}
+.gfbFrequentBoughtLabelContainer {
+  display: grid;
+}
+.gfbFrequentBoughtLabelHeading {
+  margin: 0;
+  font-size:12px;
+  color: #000000;
+  text-transform: capitalize;
+}
+.gfbFrequentBoughtLabelParentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.gfbFrequentBoughtLabelPillsUI {
+  display: block !important;
+  padding: 2px 14px;
+  font-size: 12px;
+  color: #000000;
+  text-transform: capitalize;
+  border: 1px solid #000000;
+  border-radius: 32px;
+  cursor: pointer;
+}
+.gfbFrequentBoughtLabelPillsUISelectedUIOutOfStock{
+  text-decoration: line-through;
+  pointer-events: none;
+  border-style: dotted !important;
+  border-color: #828282 !important;
+  display: none !important;
+}
+.gfbFrequentBoughtLabelPillsUISelected {
+  background-color: #000000;
+  color: #ffffff;
+}
+.gfbFrequentBoughtSingleDropdownUIParentContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  column-gap: 8px;
+  row-gap: 5px;
+}
+.gfbFrequentBoughtSingleDropdownContainer {
+  display: grid;
+}
+.gfbFrequentBoughtSingleDropdownHeading {
+  margin: 0;
+  font-size:12px;
+  color: #000000;
+  text-transform: capitalize;
+}
+.gfbFrequentBoughtSingleDropdownSelector {
+  width: fit-content;
+  font-size: 12px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 10 6" fill="%23ccc" xmlns="http://www.w3.org/2000/svg"><path d="M0 1l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 10px;
+  text-transform: capitalize;
+}
+.gfbFrequentBoughtVariantUIParentContainer{
+  display: grid;
+  row-gap: 5px;
+}
+.gfbFrequentBoughtQuanityBoxLabel{
+  font-size: 12px;
+  color: #000000;
+  text-transform: capitalize;
+}
+.gfbFrequentBoughtQuanityBoxWrapper{
+  width: fit-content;
+  display: grid;
+  grid-row: 3;
+  grid-column: 2;
+  margin: 2px;
+  display: none;
+}
+.gfbFrequentBoughtQuanityBox{
+  width: 40px;
+  font-size: 12px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+}
+
+.dummyDivOneAddToCartSection{
+  display: block !important;
+}
+
+/* .gfbFrequentBoughtWidgetProductCheckboxContainer{
+  visibility:hidden;
+} */
+/*******************HORIZONTAL DISPLAY DESIGN********************************/
+.horizontalDisplayDesign{
+  display: grid;
+  width: auto;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetContainer{
+  position: relative;
+  margin: 0px 10px;
+  width: fit-content;
+  overflow-x: auto;
+  gap: 10px
+}
+.horizontalDisplayDesign .gfbFrequentBoughtReplacableContent{
+  display: grid;
+  grid-template-columns: auto max-content;
+  gap: 20px;
+}
+
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetContentContainerOverflow .gfbFrequentBoughtReplacableContent{
+  grid-template-columns: 1fr;
+  gap: 0px;
+}
+
+
+.horizontalDisplayDesign .gfbWidgetNotOverflowing .gfbFrequentBoughtReplacableContent{
+  column-gap: 50px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetTitleContainer{
+  width: fit-content;
+  left: 0px;
+  position: sticky;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetContentContainer{
+  display: flex;
+  width: 70%
+}
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetProductContainer{
+  position: relative;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 170px;
+  border: none;
+  column-gap: 0px;
+  align-items: unset;
+  grid-template-rows: 125px 60px 40px 70px;
+  padding-bottom: 0px;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetProductImage{
+  grid-row: unset;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetProductImage{
+  width: 140px;
+  height: 120px;
+  justify-self: center;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetProductTitle{
+  grid-row: 2;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetProductPriceContainer{
+  display: grid;
+  column-gap: 5px;
+  align-items: center;
+  font-size: 14px;
+  width: fit-content;
+  grid-row: 3;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetProductPriceDiscounted{
+  font-weight: 600;
+}
+.gfbHorizontalPlusImageBarContainer{
+  display:none;
+}
+
+.horizontalDisplayDesignForUpsell .gfbHorizontalPlusImageBarContainer{
+  display:block;
+  width: fit-content;
+  margin: auto 5px;
+}
+.horizontalDisplayDesign .gfbHorizontalPlusImageBarContainer{
+  display: grid;
+  padding: 0px 5px;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetProductImageEle{
+  object-fit: fill;
+  border-radius: 10px;
+}
+.horizontalDisplayDesign .gfbHorizontalPlusImageBar{
+  position: relative;
+  top: 55px;
+  height: 100%;
+  width: 10px;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtAddToCartButton{
+  width: fit-content;
+  padding: 10px 25px;
+  position: sticky;
+  left: 0px;
+}
+.horizontalDisplayDesign .gfbWidgetNotOverflowing .gfbFrequentBoughtAddToCartButton{
+  position: absolute;
+  right: 45px;
+  top: 150px;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetPriceContainer{
+  display: grid;
+  width: fit-content;
+  position: sticky;
+  left: 0px;
+  grid-template-rows: 1fr 1fr;
+  height: fit-content;
+  padding-top: 0px;
+}
+.horizontalDisplayDesign .gfbWidgetNotOverflowing .gfbFrequentBoughtWidgetPriceContainer{
+  column-gap: 20px;
+  height: fit-content;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtQuanityBoxWrapper{
+  width: fit-content;
+  display: grid;
+  grid-row: 4;
+  grid-column: 1;
+  margin: 2px;
+  justify-self: left;
+  height: fit-content;
+  display: none;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtLabelContainer{
+  grid-template-rows: auto 1fr;
+}
+
+.horizontalDisplayDesign .gfbFrequentBoughtLabelParentContainer{
+  height: fit-content;
+  padding: 10px 0px;
+  justify-content: flex-start;
+}
+
+.horizontalDisplayDesign .gfbFrequentBoughtSingleDropdownContainer{
+  grid-template-rows: auto 1fr;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtSingleDropdownSelector{
+  height: fit-content;
+  justify-content: center;
+}
+
+.horizontalDisplayDesign .gfbFrequentBoughtAddToCartButtonSection{
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  gap: 20px;
+  position: relative;
+}
+
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetContentContainerOverflow .gfbFrequentBoughtAddToCartButtonSection{
+  display: grid;
+  position: sticky;
+  left: 0px;
+  grid-template-columns: unset;
+  width: fit-content;
+  gap: 0px;
+}
+
+.horizontalDisplayDesign .gfbFrequentBoughtAddToCartButton{
+    /* top: -400px; */
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.horizontalDisplayDesign .gfbFrequentBoughtSwatchContainer{
+  grid-template-rows: auto 1fr;
+}
+
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetPriceContainerText{
+  font-weight: 18px;
+}
+.horizontalDisplayDesign .gfbFrequentBoughtWidgetPriceContainerPriceDiscounted{
+  font-weight: 600;
+}
+@media only screen and (max-width: 767px) {
+  .horizontalDisplayDesign .gfbFrequentBoughtWidgetContainer{
+    width: auto;
+  }
+}
+
+/********************************************************/
+/*******       Volume Bundle CSS Style         **********/
+/********************************************************/
+
+.gfbVolumeDiscountProcuctHorizontalLine{
+  height: 0.5px !important;
+  margin: 16px 0 !important;
+  width: 100% !important;
+  background-color: #dadada !important;
+}
+.gfbVolumeDiscountVariantSelectionDiv{
+  display:grid;
+  /* grid-template-columns: 1.8fr 0.2fr; */
+  row-gap: 5px;
+  align-items: end;
+}
+.gfbVolumeDiscountTierContainer{
+  display: grid;
+  align-items: center;
+  padding: 10px;
+}
+.gfbVolumeDiscountTierContainerWithTextField{
+  gap: 10px;
+}
+.gfbVolumeDiscountTierContainerWithTextField .gfbVolumeDiscountCustomFieldContainer{
+  grid-column: 1 / 3;
+}
+.gfbElegantDesignGrid{
+  grid-template-columns: 1fr 2fr;
+}
+
+.gfbVolumeDiscountVariantImageContainer{
+  display: grid;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.gfbVolumeDiscountVariantImage{
+  width:100%;
+  height:100%;
+  object-fit: fill;
+}
+
+.gfbVolumeDiscountQuantityInputWrapper{
+  display: none;
+}
+
+.gfbVolumeDiscountQuantityLabel{
+  color:black;
+  font-size:12px;
+}
+
+.gfbVolumeDiscountQuantityInput{
+  width: 20%;
+  padding:5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline:none !important;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.gfbVolumeDiscountQuantityInput:active{
+  box-shadow: none !important;
+  outline:none !important;
+}
+
+/***** VOLUME DISCOUNT SWATCHES *******/
+.gfbVolumeDiscountSwatchContainer {
+  display: grid;
+}
+
+.gfbVolumeDiscountSwatchHeading {
+  margin: 0;
+  font-size:12px;
+  color: #000000;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.gfbVolumeDiscountSwatchParentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.gfbVolumeDiscountSwatchColorUI {
+  display: block !important;
+  width: 35px;
+  height: 35px;
+  border: 1.2px solid #c0c0c0;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.gfbVolumeDiscountSwatchImg{
+  width:100%;
+  height:100%;
+  object-fit: fill;
+}
+
+.gfbVolumeDiscountSwatchColorUISelected {
+  outline: 2.5px solid #212121;
+  border: none;
+}
+
+.gfbVolumeDiscountSwatchColorUIOutOfStock{
+  opacity: 0.6;
+  border-style: dotted;
+  pointer-events: none;
+  display: none !important;
+}
+
+/***** VOLUME DISCOUNT LABELS *******/
+.gfbVolumeDiscountLabelContainerUIOptions{
+  display: grid;
+}
+
+.gfbVolumeDiscountLabelHeading{
+  margin: 0;
+  font-size:12px;
+  color: #000000;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.gfbVolumeDiscountLabelParentContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.gfbVolumeDiscountLabelPillsUI{
+  display: block !important;
+  padding: 2px 14px;
+  font-size: 12px;
+  color: #000000;
+  text-transform: capitalize;
+  border: 1px solid #000000;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.gfbVolumeDiscountLabelPillsUISelected{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.gfbVolumeDiscountLabelPillsUISelectedUIOutOfStock{
+  text-decoration: line-through;
+  pointer-events: none;
+  border-style: dotted !important;
+  border-color: #828282 !important;
+  display: none !important;
+}
+
+.gfbVolumeDiscountSingleDropdownUIParentContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  column-gap: 8px;
+  row-gap: 5px;
+}
+
+/***** VOLUME DISCOUNT SINGLE DROPDOWNs *******/
+.gfbVolumeDiscountSingleDropdownUIParentContainer{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  column-gap: 16px;
+  row-gap: 5px;
+}
+
+.gfbVolumeDiscountSingleDropdownContainer {
+  display: grid;
+}
+
+.gfbVolumeDiscountSingleDropdownHeading {
+  margin: 0;
+  font-size:12px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.gfbVolumeDiscountSingleDropdownSelector {
+  width: fit-content;
+  font-size: 12px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 10 6" fill="%23ccc" xmlns="http://www.w3.org/2000/svg"><path d="M0 1l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 10px;
+  text-transform: capitalize;
+}
+
+.gfbFrequentBoughtWidgetContainerParentProduct .gfbFrequentBoughtWidgetTitleContainer{
+  display: none;
+}
+
+.gfbFrequentBoughtWidgetContainerParentProduct .gfbFrequentBoughtWidgetProductCheckboxContainer{
+  visibility: hidden;
+}
+.gfbSimpleRibbonBadge{
+  position: absolute;
+  right: 0px;
+  top: -18px;
+  color: #ffffff;
+  font-style: normal;
+  white-space: nowrap;
+  text-align: right;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: normal;
+  padding: 5px 11px 5px;
+  background-color: red;
+  border-radius: 0px 0px 4px 4px;
+}
+.gfbMostPopularTagContainer {
+  position: relative;
+}
+
+/* animations for volume bundles */
+.gfbVolumeAnimationCloser{
+    display: none !important;
+}
+
+
+.gfbVolumeDiscountTierProductImageContainer{
+  display: grid;
+  width: 35px;
+  height: 35px;
+  border: 1.2px solid #c0c0c0;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.gfbVolumeDiscountTierProductImage{
+  width:100%;
+  height:100%;
+  object-fit: fill;
+}
+.gfbVolumeProductNavigatorContainer{
+  display: grid;
+  padding-top: 10px;
+  border-top: 1px solid #3c3c3c;
+  margin-top: 6px;
+}
+.gfbVolumeProductNavigator{
+  display: grid;
+  grid-template-columns: min-content 10px min-content;
+  cursor: pointer;
+  justify-self: end;
+}
+.gfbVolumeProductPrevButton, .gfbVolumeProductNextButton{
+  padding: 0px 10px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  font-size: 12px;
+}
+.gfbVolumeProductPrevButton{
+  background-color: #F0F0F0;
+  color: #1B1B1B;
+}
+.gfbVolumeProductNextButton{
+  background-color: #1B1B1B;
+  color: #F0F0F0;
+}
+.gfbVolumeDiscountCustomFieldLabel{
+  font-weight: bold;
+}
+.gfbVolumeDiscountNewTemplate .gfbVolumeDiscountCustomFieldContainer{
+  font-size: 12px;
+  grid-column: 2;
+}
+
+.gfbVolumeDiscountProductCounterContainer{
+  width: fit-content;
+  font-size: 12px;
+  padding: 0px 8px;
+  font-weight: 800;
+  border: 2px solid black;
+  border-radius: 5px;
+  z-index: 10;
+  margin: 10px 10px;
+}
+
+@keyframes gfbWiggle {
+  0% {
+    transform: rotate(0deg) translateX(-5px);
+  }
+  25% {
+    transform: rotate(00deg) translateX(0px);
+  }
+  50% {
+    transform: rotate(0deg) translateX(5px);
+  }
+  75% {
+    transform: rotate(00deg) translateX(0px);
+  }
+  100% {
+    transform:   
+ rotate(0deg);
+  }
+}
+
+.gfbVolumeDiscountProductCounterContainer.gfbWiggling{  
+  animation: gfbWiggle 0.5s ease-in-out infinite;
+}
+
+.gfbVolumeDiscountTierContainer {
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.gfbVolumeDiscountTierContainer.gfb-sliding-toRight {
+  transform: translateX(200px);
+  opacity: 0;
+}
+
+.gfbVolumeDiscountTierContainer.gfb-sliding-toLeft {
+  transform: translateX(-200px);
+  opacity: 0;
+}
+
+/* bundle upsell horizontal design new */
+.horizontalDisplayDesignForUpsell{
+  position: relative;
+  min-width:440px;
+  max-width:470px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetTitleContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductImage{
+  width: 50px;
+  height: 50px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductContainer{
+  position: relative;
+  padding: 0;
+  width: 100%;
+  scroll-snap-align: start;
+  grid-template-columns: 1fr;
+  grid-template-rows:auto;
+  border: none;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductContainer:not(:last-child)::after {
+  content: "+";
+  display: block;
+  position: absolute;
+  left: 102.5%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: #000000;
+  font-weight: 900;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtLabelPillsUI{
+  font-size:10px;
+}
+.horizontalDisplayDesignForUpsell .gfbVariantSelctorPopover{
+  position: absolute;
+  max-width: 250px;
+  padding:10px;
+  top: 72%;
+  left: 8%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  z-index: 1000;
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, .16);
+}
+
+.gfbFrequentBoughtWidgetProductImageTitleContainer{
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 10px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductImageTitleContainer{
+  display: grid;
+  grid-template-columns: 1fr;
+  overflow: hidden;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductVariantSelectorBtn{
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 2px 2px 5px;
+  align-items: center;
+  margin: 0 10px 12px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #858585;
+  cursor: pointer;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductVariantSelectorBtn .gfbDropdownIconWrapper{
+  display: grid;
+  place-items: center;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductVariantSelectorBtn .gfbDropdownIconWrapper svg{
+  width: 22px;
+  height: 22px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductVariantSelectorBtn:hover{
+  margin: 0 10px 12px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #858585;
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductDetails{
+  padding: 0 10px 0 10px;
+  display: grid;
+  row-gap: 5px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductTitle{
+  font-size: 16px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductPriceContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductTitle a:hover{
+  text-decoration:underline;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductContainer{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: subgrid;
+  grid-row: span 4;
+  border: 1px solid #858585;
+  border-radius: 8px;
+  row-gap: 5px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductContainer .gfbBundlesProductSelectCheckbox{
+  position: absolute;
+  z-index: 5;
+  top: 5px;
+  right: 2px;
+  scale: 1.6;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductPriceContainer .gfbFrequentBoughtWidgetProductPriceDiscounted{
+  text-align: left;
+  font-size: 15px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductPriceContainer .gfbFrequentBoughtWidgetProductPriceOriginal{
+  text-align: left;
+  font-size: 14px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetPriceContainerPriceDiscounted{
+  font-size: 18px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetPriceContainerPriceOriginal{
+  font-size: 16px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetPriceContainerText{
+  font-size: 18px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductImageContainer{
+  aspect-ratio: 2 / 1.6;
+  border-bottom: 1px solid #858585;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductImageContainer img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductAddToCart{
+  margin: 5px 0px;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  background-color: #3c3c3c;
+  color: #f5f5f5;
+  padding: 3px 30px;
+  border-radius: 5px;
+  font-size: 13px;
+  height: fit-content;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: end;
+}
+
+/* .horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductAddToCart.clicked{
+
+} */
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductAddToCart .gfbFrequentBoughtWidgetProductAddToCartText {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductAddToCart .gfbFrequentBoughtWidgetProductAddToCartTick {
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductAddToCart.clicked .gfbFrequentBoughtWidgetProductAddToCartText {
+  display: none;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductAddToCart.clicked .gfbFrequentBoughtWidgetProductAddToCartTick {
+  display: inline-block;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtReplacableContent{
+  padding: 20px 0px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetContainer{
+  padding-top: unset;
+  padding:15px 24px;
+  overflow-x: hidden;
+  border: 1px solid #858585;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtReplacableContent{
+  padding: unset;
+  overflow:hidden;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetContentContainer{
+  position: relative;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 24px) / 2);
+  overflow-x: auto;
+  scrollbar-width: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  transition: transform .15s linear;
+  gap: 24px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetContainer{
+  gap:12px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetPrevButtonElement svg{
+  rotate: 180deg;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetPriceContainer{
+  border-top: 1px solid #858585;
+}
+.gfbFrequentBoughtWidgetButtonContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.gfbFrequentBoughtWidgetButtonContainer > div{
+  height: fit-content;
+  padding: 8px 2px;
+  z-index: 5;
+  cursor: pointer;  
+}
+.gfbFrequentBoughtWidgetHorizontalUpsellAddToCart{
+  margin: 5px 0px;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  background-color: #3c3c3c;
+  color: #f5f5f5;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 13px;
+  height: fit-content;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+}
+.gfbFrequentBoughtWidgetButtonContainer{
+  position: absolute;
+  left:0;
+  right:0;
+  top: 48%;
+  transform: translateY(-50%);
+}
+.gfbFrequentBoughtWidgetHorizontalUpsellAddToCartDisabled{
+  background-color: #d4d2e2;
+  pointer-events: none;
+}
+
+.gfbDisableHorizontalUpsellAddToCartBtn{
+  opacity:0.6;
+  pointer-events: none;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtLabelContainer{
+  height: fit-content;
+}
+
+.horizontalDisplayDesignForUpsell .gfbHorizontalPlusImageBar{
+  width:16px;
+  height: 16px;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetHorizontalUpsellAddToCart{
+  padding: 8px 30px;
+  font-size: 16px;
+}
+
+.gfbFrequentBoughtWidgetButtonContainer > div > img{
+  height: 25px;
+  width: 25px;
+}
+
+/* horizontal upsell styles for mobile */
+@media only screen and (max-width: 767px) {
+  .horizontalDisplayDesignForUpsell{
+    min-width:100%;
+  }
+  .horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetContainer {
+    padding:12px;
+}
+
+  .horizontalDisplayDesignForUpsell .gfbHorizontalPlusImageBarContainer{
+    margin:auto 12px;
+  }
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetPrevButton , .horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetNextButton{
+  display: none;
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetContentContainer {
+  grid-auto-columns: calc((100% - 25px) / 1.75);
+}
+
+.horizontalDisplayDesignForUpsell .gfbFrequentBoughtWidgetProductContainer .gfbBundlesProductSelectCheckbox{
+  scale: 1.4;
+}
+}
+
+
+/* input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  margin: 7px;
+  font: inherit;
+  color: currentColor;
+  width: 14px;
+  height: 14px;
+  border: 1.8px solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  background-color:#fff;
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="checkbox"]:checked {
+  background-color: #3c3c3c;
+}
+
+input[type="checkbox"]:disabled {
+  color:#858585;
+  cursor: not-allowed;
+} */
