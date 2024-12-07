@@ -331,9 +331,10 @@ img {
   margin-bottom: 3%;
 }
 
-.bottles .normal {
+.bottles {
   display: flex;
   margin-left: 10px;
+  gap: 3%;
 }
 .bottles .b1 img {
   height: auto;

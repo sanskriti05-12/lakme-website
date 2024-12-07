@@ -406,9 +406,15 @@ img {
       }
     }
     .bottles{
+      display: flex;
+      margin-left:10px ;
+        gap: 3%;
+      
       .normal{
-        display: flex;
-        margin-left:10px ;
+        // display: flex;
+        // margin-left:10px ;
+        // gap: 3%;
+      
       }
       .b1{
         img{
@@ -438,7 +444,7 @@ img {
         border-radius: 14px 14px 0 0;
         }
       }
-    
+     
     
 
 
